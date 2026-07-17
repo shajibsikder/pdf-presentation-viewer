@@ -2,7 +2,7 @@
 
 An open-source, hardware-accelerated, terminal-styled dynamic web presentation ecosystem. Built specifically for students, teachers, colleges, seminars, and classrooms to deliver crisp 4K projector presentations with asynchronous memory management and real-time remote PDF loading.
 
-* **Live Tool Link:** [Launch Live CyberDeck Terminal](https://weekmotion.com/service)
+* **Live Tool Link:** [Launch Live CyberDeck Terminal](https://s3.shajib.my.id/)
 * **Licensing:** Free / Open Source (MIT License)
 
 ---
