@@ -7,6 +7,24 @@ An open-source, hardware-accelerated, terminal-styled dynamic web presentation e
 
 ---
 
+## 🕹️ Quick Start & Usage Process (Free Global Access)
+
+The presentation tool operates entirely inside a secure browser terminal sandbox context. External users can instantly present their custom PDF slides by following this streamlined operational workflow:
+
+### Step 1: Generate a Public PDF Stream Link
+If you do not have a direct public URL for your presentation, generate one instantly for free:
+1. Navigate to **[Catbox.moe](https://catbox.moe/)** (Recommended reliable free file hosting platform).
+2. Upload your target presentation `.pdf` file.
+3. Copy the generated direct access URL (e.g., `https://files.catbox.moe/xxxxxx.pdf`).
+
+### Step 2: Initialize Session Inside the Shell
+1. Boot the live terminal framework and locate the secure shell prompt wrapper: `root@cyberdeck:#`.
+2. Type `start` and press `Enter` to switch the application runtime into source collection mode (`url@source:#`).
+3. Paste your generated Catbox link (or any external direct public PDF link) and hit `Enter`.
+4. *Alternative Native Bypass:* If you are hosting the framework natively, simply type the local file name (e.g., `dd.pdf`) to execute a zero-latency internal origin load.
+
+---
+
 ## Technical Architecture & Core Vendor Profile
 
 ### Engineering Overview
@@ -22,14 +40,7 @@ An open-source, hardware-accelerated, terminal-styled dynamic web presentation e
 
 ---
 
-## Interactive Shell & Usage Process
+## Core System Mechanics & State Logic
 
-The presentation tool operates entirely inside a secure browser terminal sandbox context. Follow the operational workflow below to present your PDF slides:
-
-### Step 1: Initialize Session Configuration
-Upon launch, interface with the secure shell prompt wrapper `root@cyberdeck:#`.
-1. Type `start` and press `Enter` to switch the application state into source collection mode (`url@source:#`).
-2. Paste the target public PDF direct link (e.g., `https://domain.com/assets/my-slides.pdf`) and hit `Enter`.
-
-### Step 2: Stream Hooking & Validation Flowchart
+### Asynchronous Data Validation Lifecycle
 The framework initiates an immediate handshake sequence to fetch the remote binary payload asynchronously:
